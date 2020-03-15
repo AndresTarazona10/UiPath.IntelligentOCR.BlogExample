@@ -1,7 +1,82 @@
 ﻿{
   "DataContractVersion": "1.0",
-  "DocumentTypes": [],
-  "Groups": [],
+  "DocumentTypes": [
+    {
+      "DocumentTypeId": "Document.TaxDocument.T4",
+      "Group": "Document",
+      "Category": "TaxDocument",
+      "Name": "T4",
+      "OptionalUniqueIdentifier": null,
+      "TypeField": {
+        "FieldId": "Document.TaxDocument.T4.DocumentType",
+        "FieldName": "Document Type"
+      },
+      "Fields": [
+        {
+          "FieldId": "Document.TaxDocument.T4.Year",
+          "FieldName": "Year",
+          "IsMultiValue": false,
+          "Type": "Number",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": []
+        },
+        {
+          "FieldId": "Document.TaxDocument.T4.EmployerName",
+          "FieldName": "EmployerName",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": []
+        },
+        {
+          "FieldId": "Document.TaxDocument.T4.EmployerAccount",
+          "FieldName": "EmployerAccount",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": []
+        },
+        {
+          "FieldId": "Document.TaxDocument.T4.EmployeeLastName",
+          "FieldName": "EmployeeLastName",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": []
+        },
+        {
+          "FieldId": "Document.TaxDocument.T4.EmployeeFirstName",
+          "FieldName": "EmployeeFirstName",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": []
+        },
+        {
+          "FieldId": "Document.TaxDocument.T4.EmployeeAddress",
+          "FieldName": "EmployeeAddress",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": []
+        }
+      ]
+    }
+  ],
+  "Groups": [
+    {
+      "Name": "Document",
+      "Categories": [
+        "TaxDocument"
+      ]
+    }
+  ],
   "SupportedLanguages": [
     {
       "Name": "Undetermined Language",
